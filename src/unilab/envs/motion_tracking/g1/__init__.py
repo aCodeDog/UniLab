@@ -19,6 +19,16 @@ from .flip_tracking_sac import (
     G1WallFlipTrackingSACEnv,
 )
 from .motion_box_loader import BoxMotionData, BoxMotionLoader
+from .stepping_stone import (
+    G1SteppingStoneCfg,
+    G1SteppingStoneEnv,
+    G1SteppingStoneEnvCfg,
+)
+from .stepping_stone_vision import (
+    G1SteppingStoneVisionCfg,
+    G1SteppingStoneVisionEnv,
+    G1SteppingStoneVisionEnvCfg,
+)
 from .tracking import (
     G1MotionTrackingCfg,
     G1MotionTrackingDeployEnv,
@@ -55,6 +65,12 @@ __all__ = [
     "G1BoxTrackingCfg",
     "G1BoxTrackingEnv",
     "G1BoxTrackingEnvCfg",
+    "G1SteppingStoneCfg",
+    "G1SteppingStoneEnv",
+    "G1SteppingStoneEnvCfg",
+    "G1SteppingStoneVisionCfg",
+    "G1SteppingStoneVisionEnv",
+    "G1SteppingStoneVisionEnvCfg",
     "BoxMotionData",
     "BoxMotionLoader",
 ]
